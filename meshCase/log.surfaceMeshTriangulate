@@ -1,0 +1,38 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : surfaceMeshTriangulate mesh_outside.stl
+Date   : Nov 21 2022
+Time   : 12:33:11
+Host   : "shasi-ThinkPad-Edge-E540"
+PID    : 29335
+I/O    : uncollated
+Case   : /home/shasi/Documents/CFD/Project/meshCase
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Extracting surface from boundaryMesh ...
+
+Including all processor patches.
+
+Reading mesh from time 0
+Create polyMesh for time = 0
+
+surfZone 0 : patch_3_0
+surfZone 1 : patch_0_0
+surfZone 2 : patch_4_0
+surfZone 3 : patch_2_0
+surfZone 4 : patch_1_0
+Writing merged surface to "/home/shasi/Documents/CFD/Project/meshCase/mesh_outside.stl"
+End
+

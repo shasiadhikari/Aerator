@@ -1,0 +1,26 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : surfaceTransformPoints -scale (1000 1000 1000) mesh_outside.stl mesh_outside.stl
+Date   : Nov 21 2022
+Time   : 12:33:11
+Host   : "shasi-ThinkPad-Edge-E540"
+PID    : 29342
+I/O    : uncollated
+Case   : /home/shasi/Documents/CFD/Project/meshCase
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Reading surf from "mesh_outside.stl" ...
+Writing surf to "mesh_outside.stl" ...
+Scaling points by (1000 1000 1000)
+End
+
