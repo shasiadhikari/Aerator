@@ -19,36 +19,31 @@ surfaceFile     "Common_Geometry.fms";
 
 surfaceMeta
 {
-    nPoints         4947;
-    nFacets         9989;
-    nPatches        5;
-    nFeatureEdges   4993;
+    nPoints         5945;
+    nFacets         12063;
+    nPatches        4;
+    nFeatureEdges   6003;
     patches
     {
         patch_0_0
         {
             type            empty;
-            nFacets         7318;
+            nFacets         11359;
         }
         patch_1_0
         {
             type            empty;
-            nFacets         18;
+            nFacets         24;
         }
         patch_2_0
         {
             type            empty;
-            nFacets         423;
+            nFacets         524;
         }
         patch_3_0
         {
             type            empty;
-            nFacets         118;
-        }
-        patch_4_0
-        {
-            type            empty;
-            nFacets         2112;
+            nFacets         156;
         }
     }
     pointSubsets

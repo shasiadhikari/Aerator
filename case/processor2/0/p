@@ -31,16 +31,12 @@ boundaryField
         rho             rho;
         psi             none;
         gamma           1;
-        p0              uniform 0;
-        value           uniform 0;
+        p0              nonuniform 0();
+        value           nonuniform 0();
     }
     constraint
     {
         type            symmetry;
-    }
-    wall
-    {
-        type            zeroGradient;
     }
     defaultFaces
     {

@@ -24,28 +24,22 @@ boundaryField
     inlet
     {
         type            flowRateInletVelocity;
-        volumetricFlowRate constant 0.01;
+        volumetricFlowRate constant 0.0001;
         extrapolateProfile 0;
-        value           nonuniform 0();
+        value           uniform (0 0 0);
     }
     outlet
     {
         type            pressureInletOutletVelocity;
-        value           uniform (0 0 0);
+        value           nonuniform 0();
     }
     constraint
     {
         type            symmetry;
     }
-    wall
-    {
-        type            movingWallVelocity;
-        value           uniform (0 0 0);
-    }
     defaultFaces
     {
-        type            movingWallVelocity;
-        value           uniform (0 0 0);
+        type            slip;
     }
     procBoundary2to3
     {

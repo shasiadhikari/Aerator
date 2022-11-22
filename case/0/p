@@ -38,11 +38,6 @@ boundaryField
         value       $internalField;
     }
 
-    wall
-    {
-        type        zeroGradient;
-    }
-
     defaultFaces
     {
         type        zeroGradient;

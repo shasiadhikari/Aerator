@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-3bcbaf946ae9
 Exec   : cartesianMesh
-Date   : Nov 21 2022
-Time   : 12:32:48
+Date   : Nov 22 2022
+Time   : 12:07:44
 Host   : "shasi-ThinkPad-Edge-E540"
-PID    : 28870
+PID    : 7501
 I/O    : uncollated
 Case   : /home/shasi/Documents/CFD/Project/meshCase
 nProcs : 1
@@ -21,31 +21,31 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
-Created 79 surface patches
+Created 93 surface patches
 Setting root cube size and refinement parameters
-Root box (-0.01075 -0.01228769 -0.021) (0.02125 0.01971231 0.011)
-Requested cell size corresponds to octree level 7
-Requested boundary cell size corresponds to octree level 7
+Root box (-0.03085 -0.030146635 -0.0306) (0.02035 0.021053365 0.0206)
+Requested cell size corresponds to octree level 8
+Requested boundary cell size corresponds to octree level 8
 Refining boundary
 Refining boundary boxes to the given size
 Finished refining boundary boxes
 Performing automatic refinement
 Performing automatic refinement
 Marking inside/outside.
-Number of internal boxes is 12800
-Number of outside boxes is 20330
-Number of data boxes is 13094
-Number of unknown boxes is 12
+Number of internal boxes is 26150
+Number of outside boxes is 34608
+Number of data boxes is 25150
+Number of unknown boxes is 242
 Refining boxes near DATA boxes
 Marking inside/outside.
-Number of internal boxes is 48276
-Number of outside boxes is 20330
-Number of data boxes is 13094
-Number of unknown boxes is 12
+Number of internal boxes is 128280
+Number of outside boxes is 34608
+Number of data boxes is 25150
+Number of unknown boxes is 249
 Finished refining boxes near DATA boxes
 Extracting polyMesh
 Creating octree vertices
-Octree nodes 62017
+Octree nodes 156119
 Resizing points!
 Finished creating octree vertices
 Creating polyMesh from octree
@@ -53,13 +53,26 @@ Reordering boundary faces
 Finished reordering boundary faces
 Finished creating polyMesh
 Mesh has :
-51717 vertices 
-139938 faces
-44236 cells
+135434 vertices 
+377258 faces
+121080 cells
 Finished extracting polyMesh
 Checking for irregular surface connections
 Checking cells connected to surface vertices
-Found 14460 boundary faces 
+Found 28036 boundary faces 
+Found 18 problematic vertices
+Finished checking cells connected to surface vertices
+Checking cells connected to surface vertices
+Found 28036 boundary faces 
+Found 0 problematic vertices
+Finished checking cells connected to surface vertices
+Checking for non-manifold surface edges
+Found 0 non-manifold edges
+Finished checking for non-manifold surface edges
+Checking faces connections to surface vertices
+Found 0 invalid connections
+Finished checking faces connections to surface vertices
+Checking cells connected to surface vertices
 Found 0 problematic vertices
 Finished checking cells connected to surface vertices
 Checking for non-manifold surface edges
@@ -69,31 +82,31 @@ Checking faces connections to surface vertices
 Found 0 invalid connections
 Finished checking faces connections to surface vertices
 Finished checking for irregular surface connections
-Found 14460 boundary faces 
-Found 325 non-mappable cells
+Found 28036 boundary faces 
+Found 368 non-mappable cells
 Removing selected cells from the mesh
-New cells size 43911
+New cells size 120712
 Reordering boundary faces 
 Finished reordering boundary faces
 Removing faces
 Finished removing faces
 Finished removing selected cells from the mesh
-Found 13868 boundary faces 
-Found 19 non-mappable cells
+Found 27326 boundary faces 
+Found 3 non-mappable cells
 Removing selected cells from the mesh
-New cells size 43892
+New cells size 120709
 Reordering boundary faces 
 Finished reordering boundary faces
 Removing faces
 Finished removing faces
 Finished removing selected cells from the mesh
-Found 13808 boundary faces 
+Found 27314 boundary faces 
 Found 0 non-mappable cells
 Checking cell connections
 Finished checking cell connections
 --> FOAM Warning : Mesh has 3 unconnected regions
 Removing selected cells from the mesh
-New cells size 43864
+New cells size 120682
 Reordering boundary faces 
 Finished reordering boundary faces
 Removing faces
@@ -101,7 +114,7 @@ Finished removing faces
 Finished removing selected cells from the mesh
 Checking for irregular surface connections
 Checking cells connected to surface vertices
-Found 13722 boundary faces 
+Found 27230 boundary faces 
 Found 0 problematic vertices
 Finished checking cells connected to surface vertices
 Checking for non-manifold surface edges
@@ -111,48 +124,73 @@ Checking faces connections to surface vertices
 Found 0 invalid connections
 Finished checking faces connections to surface vertices
 Finished checking for irregular surface connections
-Found 13722 boundary faces 
+Found 27230 boundary faces 
 Found 0 non-mappable cells
 Checking cell connections
 Finished checking cell connections
-Found 13722 boundary faces 
+Found 27230 boundary faces 
 Marked 0 faces for decomposition
-Found 13722 boundary faces 
+Found 27230 boundary faces 
 Smoothing mesh surface before mapping.
 Found 0 corners at the surface of the volume mesh
 Found 0 edge points at the surface of the volume mesh
 Starting untangling the surface of the volume mesh
-Number of inverted boundary faces is 5
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 10
+Number of inverted boundary faces is 82
+Number of inverted boundary faces is 103
+Number of inverted boundary faces is 35
+Number of inverted boundary faces is 19
+Number of inverted boundary faces is 22
+Number of inverted boundary faces is 22
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 31
+Number of inverted boundary faces is 18
+Number of inverted boundary faces is 16
+Number of inverted boundary faces is 20
+Number of inverted boundary faces is 20
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 41
+Number of inverted boundary faces is 20
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 50
+Number of inverted boundary faces is 24
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 52
+Number of inverted boundary faces is 26
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 61
+Number of inverted boundary faces is 26
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 67
+Number of inverted boundary faces is 26
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 79
+Number of inverted boundary faces is 26
 Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 6
 Number of inverted boundary faces is 0
 Finished untangling the surface of the volume mesh
 Found 0 corners at the surface of the volume mesh
 Found 0 edge points at the surface of the volume mesh
 Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 79
+Number of inverted boundary faces is 66
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 33
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 30
 Number of inverted boundary faces is 35
-Number of inverted boundary faces is 43
-Number of inverted boundary faces is 34
-Number of inverted boundary faces is 29
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 6
-Number of inverted boundary faces is 8
-Number of inverted boundary faces is 6
+Number of inverted boundary faces is 37
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 9
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 5
+Number of inverted boundary faces is 5
 Smoothing remaining inverted vertices 
 Number of inverted boundary faces is 3
 Number of inverted boundary faces is 0
@@ -160,43 +198,50 @@ Finished untangling the surface of the volume mesh
 Found 0 corners at the surface of the volume mesh
 Found 0 edge points at the surface of the volume mesh
 Starting untangling the surface of the volume mesh
-Number of inverted boundary faces is 52
-Number of inverted boundary faces is 24
+Number of inverted boundary faces is 147
+Number of inverted boundary faces is 97
+Number of inverted boundary faces is 41
+Number of inverted boundary faces is 38
+Number of inverted boundary faces is 38
+Number of inverted boundary faces is 35
+Number of inverted boundary faces is 38
+Number of inverted boundary faces is 41
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Number of inverted boundary faces is 35
+Number of inverted boundary faces is 38
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Number of inverted boundary faces is 39
+Number of inverted boundary faces is 42
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 37
+Number of inverted boundary faces is 43
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 32
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 30
+Number of inverted boundary faces is 37
+Number of inverted boundary faces is 36
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 30
+Number of inverted boundary faces is 37
+Number of inverted boundary faces is 36
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 30
 Number of inverted boundary faces is 16
+Number of inverted boundary faces is 20
+Number of inverted boundary faces is 21
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 8
+Number of inverted boundary faces is 6
+Number of inverted boundary faces is 5
+Number of inverted boundary faces is 5
+Number of inverted boundary faces is 5
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
 Number of inverted boundary faces is 2
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 1
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
 Number of inverted boundary faces is 0
 Finished untangling the surface of the volume mesh
 Finished smoothing mesh surface before mapping.
@@ -205,325 +250,716 @@ Finished mapping vertices onto surface
 Found 0 corners at the surface of the volume mesh
 Found 0 edge points at the surface of the volume mesh
 Starting untangling the surface of the volume mesh
-Number of inverted boundary faces is 214
-Number of inverted boundary faces is 23
-Number of inverted boundary faces is 13
-Number of inverted boundary faces is 11
-Number of inverted boundary faces is 11
-Number of inverted boundary faces is 9
-Number of inverted boundary faces is 9
-Number of inverted boundary faces is 9
+Number of inverted boundary faces is 504
+Number of inverted boundary faces is 40
+Number of inverted boundary faces is 37
+Number of inverted boundary faces is 39
+Number of inverted boundary faces is 41
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 8
-Number of inverted boundary faces is 8
-Number of inverted boundary faces is 5
+Number of inverted boundary faces is 32
+Number of inverted boundary faces is 33
+Number of inverted boundary faces is 45
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 35
+Number of inverted boundary faces is 35
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 41
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 39
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 40
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 34
+Number of inverted boundary faces is 36
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 19
+Number of inverted boundary faces is 18
+Number of inverted boundary faces is 16
+Number of inverted boundary faces is 19
+Number of inverted boundary faces is 16
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 7
+Number of inverted boundary faces is 7
+Number of inverted boundary faces is 6
+Number of inverted boundary faces is 6
+Number of inverted boundary faces is 6
+Smoothing remaining inverted vertices 
 Number of inverted boundary faces is 5
 Number of inverted boundary faces is 3
 Number of inverted boundary faces is 3
-Number of inverted boundary faces is 3
+Number of inverted boundary faces is 2
+Number of inverted boundary faces is 2
+Number of inverted boundary faces is 2
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 5
-Number of inverted boundary faces is 5
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 5
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 5
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 5
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 5
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 5
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 4
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 0
 Finished untangling the surface of the volume mesh
-Found 13722 boundary faces 
+Found 27230 boundary faces 
 Extracting edges
 Starting topological adjustment of patches
 Finished topological adjustment of patches
 Starting geometrical adjustment of patches
-Found 120 corners at the surface of the volume mesh
-Found 1536 edge points at the surface of the volume mesh
-209 edge groups found!
+Found 146 corners at the surface of the volume mesh
+Found 2776 edge points at the surface of the volume mesh
+264 edge groups found!
 --> FOAM Warning : 
     From function void edgeExtractor::extractEdges()
     in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2118
-    Found 266 points with inverted surface normals. Getting rid of them...
+    Found 409 points with inverted surface normals. Getting rid of them...
 Starting untangling the surface of the volume mesh
-Number of inverted boundary faces is 266
-Number of inverted boundary faces is 184
-Number of inverted boundary faces is 173
-Number of inverted boundary faces is 154
-Number of inverted boundary faces is 164
-Number of inverted boundary faces is 161
+Number of inverted boundary faces is 409
+Number of inverted boundary faces is 353
+Number of inverted boundary faces is 327
+Number of inverted boundary faces is 333
+Number of inverted boundary faces is 339
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 39
-Number of inverted boundary faces is 55
+Number of inverted boundary faces is 112
+Number of inverted boundary faces is 161
+Number of inverted boundary faces is 174
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 80
+Number of inverted boundary faces is 119
+Number of inverted boundary faces is 133
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 70
+Number of inverted boundary faces is 101
+Number of inverted boundary faces is 116
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 56
+Number of inverted boundary faces is 89
+Number of inverted boundary faces is 104
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 50
+Number of inverted boundary faces is 84
+Number of inverted boundary faces is 102
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 47
+Number of inverted boundary faces is 76
+Number of inverted boundary faces is 91
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 42
+Number of inverted boundary faces is 58
+Number of inverted boundary faces is 57
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 14
+Number of inverted boundary faces is 23
+Number of inverted boundary faces is 17
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 7
+Number of inverted boundary faces is 16
+Number of inverted boundary faces is 16
+Smoothing remaining inverted vertices 
+Finished untangling the surface of the volume mesh
+Found 146 corners at the surface of the volume mesh
+Found 2776 edge points at the surface of the volume mesh
+264 edge groups found!
+--> FOAM Warning : 
+    From function void edgeExtractor::extractEdges()
+    in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2118
+    Found 189 points with inverted surface normals. Getting rid of them...
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 189
+Number of inverted boundary faces is 189
+Number of inverted boundary faces is 201
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 93
+Number of inverted boundary faces is 127
+Number of inverted boundary faces is 134
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 71
+Number of inverted boundary faces is 100
+Number of inverted boundary faces is 110
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 58
+Number of inverted boundary faces is 89
+Number of inverted boundary faces is 99
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 52
+Number of inverted boundary faces is 90
+Number of inverted boundary faces is 96
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 52
+Number of inverted boundary faces is 84
+Number of inverted boundary faces is 93
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 52
+Number of inverted boundary faces is 83
+Number of inverted boundary faces is 91
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 52
+Number of inverted boundary faces is 62
+Number of inverted boundary faces is 66
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 17
+Number of inverted boundary faces is 25
+Number of inverted boundary faces is 24
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 9
+Number of inverted boundary faces is 13
+Number of inverted boundary faces is 9
+Smoothing remaining inverted vertices 
+Finished untangling the surface of the volume mesh
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
+264 edge groups found!
+--> FOAM Warning : 
+    From function void edgeExtractor::extractEdges()
+    in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2118
+    Found 164 points with inverted surface normals. Getting rid of them...
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 164
+Number of inverted boundary faces is 167
+Number of inverted boundary faces is 177
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 83
+Number of inverted boundary faces is 115
+Number of inverted boundary faces is 124
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 67
+Number of inverted boundary faces is 98
+Number of inverted boundary faces is 100
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 53
+Number of inverted boundary faces is 82
+Number of inverted boundary faces is 90
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 52
+Number of inverted boundary faces is 79
+Number of inverted boundary faces is 85
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 50
+Number of inverted boundary faces is 80
+Number of inverted boundary faces is 86
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 51
+Smoothing remaining inverted vertices 
 Number of inverted boundary faces is 53
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 29
-Number of inverted boundary faces is 46
-Number of inverted boundary faces is 46
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 22
-Number of inverted boundary faces is 43
-Number of inverted boundary faces is 46
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 19
-Number of inverted boundary faces is 36
-Number of inverted boundary faces is 39
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 20
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 18
-Number of inverted boundary faces is 36
-Number of inverted boundary faces is 38
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 16
-Number of inverted boundary faces is 21
-Number of inverted boundary faces is 16
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 1
-Number of inverted boundary faces is 2
-Number of inverted boundary faces is 3
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 0
-Finished untangling the surface of the volume mesh
-Found 110 corners at the surface of the volume mesh
-Found 1551 edge points at the surface of the volume mesh
-209 edge groups found!
---> FOAM Warning : 
-    From function void edgeExtractor::extractEdges()
-    in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2118
-    Found 70 points with inverted surface normals. Getting rid of them...
-Starting untangling the surface of the volume mesh
-Number of inverted boundary faces is 70
-Number of inverted boundary faces is 54
-Number of inverted boundary faces is 55
-Number of inverted boundary faces is 56
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 18
-Number of inverted boundary faces is 27
-Number of inverted boundary faces is 27
-Smoothing remaining inverted vertices 
 Number of inverted boundary faces is 15
-Number of inverted boundary faces is 19
-Number of inverted boundary faces is 20
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 13
-Number of inverted boundary faces is 20
+Number of inverted boundary faces is 25
 Number of inverted boundary faces is 23
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
+Number of inverted boundary faces is 9
+Number of inverted boundary faces is 16
+Number of inverted boundary faces is 11
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 0
 Finished untangling the surface of the volume mesh
-Found 110 corners at the surface of the volume mesh
-Found 1552 edge points at the surface of the volume mesh
-209 edge groups found!
---> FOAM Warning : 
-    From function void edgeExtractor::extractEdges()
-    in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2118
-    Found 39 points with inverted surface normals. Getting rid of them...
-Starting untangling the surface of the volume mesh
-Number of inverted boundary faces is 39
-Number of inverted boundary faces is 47
-Number of inverted boundary faces is 53
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 10
-Number of inverted boundary faces is 15
-Number of inverted boundary faces is 13
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 8
-Number of inverted boundary faces is 9
-Number of inverted boundary faces is 10
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 8
-Number of inverted boundary faces is 9
-Number of inverted boundary faces is 9
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 6
-Number of inverted boundary faces is 9
-Number of inverted boundary faces is 9
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 6
-Number of inverted boundary faces is 10
-Number of inverted boundary faces is 9
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 6
-Number of inverted boundary faces is 10
-Number of inverted boundary faces is 9
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 6
-Number of inverted boundary faces is 2
-Number of inverted boundary faces is 2
-Number of inverted boundary faces is 2
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 0
-Finished untangling the surface of the volume mesh
-Found 110 corners at the surface of the volume mesh
-Found 1554 edge points at the surface of the volume mesh
-209 edge groups found!
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
+264 edge groups found!
 Finished geometrical adjustment of patches
-Found 13722 boundary faces 
-Found 110 corners at the surface of the volume mesh
-Found 1554 edge points at the surface of the volume mesh
-Decomposing 197 internal faces
+Found 27230 boundary faces 
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
+Decomposing 395 internal faces
 Performing patch correction
-Found 13722 boundary faces 
-Found 110 corners at the surface of the volume mesh
-Found 1554 edge points at the surface of the volume mesh
+Found 27230 boundary faces 
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
 Finished with patch correction
-Found 14051 boundary faces 
+Found 27718 boundary faces 
 Removing selected cells from the mesh
-New cells size 43285
+New cells size 119762
 Reordering boundary faces 
 Finished reordering boundary faces
 Removing faces
 Finished removing faces
 Finished removing selected cells from the mesh
 Adding new cells 
-Adding 4985 cells to the mesh
+Adding 8378 cells to the mesh
 Finished adding cells to the mesh
 Reordering bnd faces
 Reordering boundary faces 
 Finished reordering boundary faces
 Finding bnd faces
-Found 14051 boundary faces 
+Found 27718 boundary faces 
 Mapping vertices with respect to surface patches
-Found 110 corners at the surface of the volume mesh
-Found 1554 edge points at the surface of the volume mesh
-209 edge groups found!
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
+264 edge groups found!
 Finished mapping vertices with respect to surface patches
-Found 14051 boundary faces 
-Found 110 corners at the surface of the volume mesh
-Found 1554 edge points at the surface of the volume mesh
+Found 27718 boundary faces 
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
 Optimizing edges. Iteration:.....
 Optimizing surface vertices. Iteration:.....
 Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 105
+Number of inverted boundary faces is 98
+Number of inverted boundary faces is 96
+Number of inverted boundary faces is 96
+Number of inverted boundary faces is 96
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 47
+Number of inverted boundary faces is 43
 Number of inverted boundary faces is 42
-Number of inverted boundary faces is 25
-Number of inverted boundary faces is 25
-Number of inverted boundary faces is 25
+Number of inverted boundary faces is 42
+Number of inverted boundary faces is 42
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
+Number of inverted boundary faces is 42
+Number of inverted boundary faces is 41
+Number of inverted boundary faces is 41
+Number of inverted boundary faces is 41
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
+Number of inverted boundary faces is 40
+Number of inverted boundary faces is 40
+Number of inverted boundary faces is 40
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
+Number of inverted boundary faces is 37
+Number of inverted boundary faces is 37
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 35
+Number of inverted boundary faces is 35
+Number of inverted boundary faces is 35
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
+Number of inverted boundary faces is 35
+Number of inverted boundary faces is 34
+Number of inverted boundary faces is 34
+Number of inverted boundary faces is 34
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
+Number of inverted boundary faces is 33
+Number of inverted boundary faces is 33
+Number of inverted boundary faces is 33
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 12
+Number of inverted boundary faces is 33
+Number of inverted boundary faces is 30
+Number of inverted boundary faces is 26
+Number of inverted boundary faces is 26
+Number of inverted boundary faces is 26
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 12
-Number of inverted boundary faces is 3
-Number of inverted boundary faces is 3
-Number of inverted boundary faces is 3
+Number of inverted boundary faces is 26
+Number of inverted boundary faces is 26
+Number of inverted boundary faces is 26
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 2
-Number of inverted boundary faces is 2
-Number of inverted boundary faces is 2
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 2
-Number of inverted boundary faces is 2
-Number of inverted boundary faces is 2
+Number of inverted boundary faces is 26
+Number of inverted boundary faces is 26
+Number of inverted boundary faces is 26
 Smoothing remaining inverted vertices 
 Finished untangling the surface of the volume mesh
-Found 14051 boundary faces 
-Found 110 corners at the surface of the volume mesh
-Found 1554 edge points at the surface of the volume mesh
-Found 110 corners at the surface of the volume mesh
-Found 1554 edge points at the surface of the volume mesh
+Found 27718 boundary faces 
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
+Found 146 corners at the surface of the volume mesh
+Found 2773 edge points at the surface of the volume mesh
 Starting creating layer cells
-Adding 14379 cells to the mesh
+Adding 28734 cells to the mesh
 Finished adding cells to the mesh
 Reordering boundary faces 
 Finished reordering boundary faces
 Finished creating layer cells
-Found 14707 boundary faces 
-Found 110 corners at the surface of the volume mesh
-Found 1566 edge points at the surface of the volume mesh
+Found 29760 boundary faces 
+Found 146 corners at the surface of the volume mesh
+Found 2863 edge points at the surface of the volume mesh
 Optimizing edges. Iteration:.....
 Optimizing surface vertices. Iteration:.....
 Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 103
+Number of inverted boundary faces is 90
+Number of inverted boundary faces is 88
+Number of inverted boundary faces is 86
+Number of inverted boundary faces is 84
+Number of inverted boundary faces is 84
+Number of inverted boundary faces is 83
+Number of inverted boundary faces is 83
+Number of inverted boundary faces is 83
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 41
+Number of inverted boundary faces is 40
+Number of inverted boundary faces is 39
+Number of inverted boundary faces is 39
+Number of inverted boundary faces is 39
+Smoothing remaining inverted vertices 
 Number of inverted boundary faces is 37
-Number of inverted boundary faces is 28
-Number of inverted boundary faces is 26
-Number of inverted boundary faces is 26
-Number of inverted boundary faces is 26
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 17
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 36
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
+Number of inverted boundary faces is 36
+Number of inverted boundary faces is 32
+Number of inverted boundary faces is 32
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 31
+Number of inverted boundary faces is 31
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 14
+Number of inverted boundary faces is 25
+Number of inverted boundary faces is 23
+Number of inverted boundary faces is 22
+Number of inverted boundary faces is 22
+Number of inverted boundary faces is 22
 Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 14
-Number of inverted boundary faces is 4
-Number of inverted boundary faces is 4
-Number of inverted boundary faces is 4
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 4
-Number of inverted boundary faces is 4
-Number of inverted boundary faces is 4
-Smoothing remaining inverted vertices 
-Number of inverted boundary faces is 4
-Number of inverted boundary faces is 4
-Number of inverted boundary faces is 4
+Number of inverted boundary faces is 22
+Number of inverted boundary faces is 22
+Number of inverted boundary faces is 22
 Smoothing remaining inverted vertices 
 Finished untangling the surface of the volume mesh
-Found 14707 boundary faces 
-Found 110 corners at the surface of the volume mesh
-Found 1566 edge points at the surface of the volume mesh
+Found 29760 boundary faces 
+Found 146 corners at the surface of the volume mesh
+Found 2863 edge points at the surface of the volume mesh
 Starting smoothing the mesh
 Starting untangling the mesh
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 24 faces pointing the wrong way!
+    Error in face pyramids: 200 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    56 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    282 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 296
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 232 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    72 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    326 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 341
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 169 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    71 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    273 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 290
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 176 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    86 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    284 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 311
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 207 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    83 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    302 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 324
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 187 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    82 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    274 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 294
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 198 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    86 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    302 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 323
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 192 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    85 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    306 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 321
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 201 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    79 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    295 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 315
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 163 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    64 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    229 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 247
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 145 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    58 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    219 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 232
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 78 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    46 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    144 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 155
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 105 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    53 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    166 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 183
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 80 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    47 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    141 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 149
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 104 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    37 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    156 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 163
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 105 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    47 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    170 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 180
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 76 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    51 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    128 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 147
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 128 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    50 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    189 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 203
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 95 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    42 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    144 zero or negative part tetrahedra detected.
+Iteration 8. Number of bad faces is 154
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 138 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    52 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    195 zero or negative part tetrahedra detected.
+Iteration 9. Number of bad faces is 209
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 54 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    38 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    119 zero or negative part tetrahedra detected.
+Iteration 10. Number of bad faces is 131
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 81 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    47 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    145 zero or negative part tetrahedra detected.
+Iteration 11. Number of bad faces is 153
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 99 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    40 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    149 zero or negative part tetrahedra detected.
+Iteration 12. Number of bad faces is 158
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 96 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    47 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    155 zero or negative part tetrahedra detected.
+Iteration 13. Number of bad faces is 170
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 79 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
@@ -532,64 +968,248 @@ Starting untangling the mesh
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    80 zero or negative part tetrahedra detected.
-Iteration 0. Number of bad faces is 101
+    141 zero or negative part tetrahedra detected.
+Iteration 14. Number of bad faces is 153
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 12 faces pointing the wrong way!
+    Error in face pyramids: 112 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    26 faces with severe warpage (flatness < 0.8) found.
+    56 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    32 zero or negative part tetrahedra detected.
-Iteration 1. Number of bad faces is 53
+    175 zero or negative part tetrahedra detected.
+Iteration 15. Number of bad faces is 189
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 12 faces pointing the wrong way!
+    Error in face pyramids: 100 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    24 faces with severe warpage (flatness < 0.8) found.
+    41 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    29 zero or negative part tetrahedra detected.
-Iteration 2. Number of bad faces is 50
+    168 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 175
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 11 faces pointing the wrong way!
+    Error in face pyramids: 129 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    26 faces with severe warpage (flatness < 0.8) found.
+    35 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    29 zero or negative part tetrahedra detected.
-Iteration 3. Number of bad faces is 51
+    180 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 184
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 12 faces pointing the wrong way!
+    Error in face pyramids: 162 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    25 faces with severe warpage (flatness < 0.8) found.
+    38 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    216 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 218
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 63 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    75 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 78
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    7 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 13
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 10
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 11
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 8. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 9. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 10. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 29 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    40 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 42
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 35 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    49 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 50
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 19 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    11 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    37 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 42
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 17 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    12 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    36 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 41
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 13 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    12 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
     30 zero or negative part tetrahedra detected.
-Iteration 4. Number of bad faces is 51
+Iteration 3. Number of bad faces is 33
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
@@ -597,55 +1217,377 @@ Iteration 4. Number of bad faces is 51
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    27 faces with severe warpage (flatness < 0.8) found.
+    12 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    33 zero or negative part tetrahedra detected.
-Iteration 5. Number of bad faces is 55
+    32 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 36
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 11 faces pointing the wrong way!
+    Error in face pyramids: 7 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    25 faces with severe warpage (flatness < 0.8) found.
+    10 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
     28 zero or negative part tetrahedra detected.
-Iteration 6. Number of bad faces is 50
+Iteration 5. Number of bad faces is 32
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 11 faces pointing the wrong way!
+    Error in face pyramids: 9 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    26 faces with severe warpage (flatness < 0.8) found.
+    10 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    29 zero or negative part tetrahedra detected.
-Iteration 7. Number of bad faces is 53
+    23 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 26
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 12 faces pointing the wrong way!
+    Error in face pyramids: 14 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    26 faces with severe warpage (flatness < 0.8) found.
+    10 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
     31 zero or negative part tetrahedra detected.
-Iteration 1. Number of bad faces is 53
+Iteration 7. Number of bad faces is 35
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 9 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    24 zero or negative part tetrahedra detected.
+Iteration 8. Number of bad faces is 26
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 15 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    22 zero or negative part tetrahedra detected.
+Iteration 9. Number of bad faces is 27
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 15 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    11 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    33 zero or negative part tetrahedra detected.
+Iteration 10. Number of bad faces is 37
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 23 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    10 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    35 zero or negative part tetrahedra detected.
+Iteration 11. Number of bad faces is 42
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 13 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    13 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    26 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 32
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 30 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    14 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    46 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 49
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 37 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    11 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    54 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 56
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    7 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 10
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 10
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 11
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    2 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 4
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    3 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    2 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 5
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    6 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 10
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    15 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    11 zero or negative part tetrahedra detected.
+Iteration 8. Number of bad faces is 22
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 9. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    9 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    7 zero or negative part tetrahedra detected.
+Iteration 10. Number of bad faces is 13
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    8 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 12
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    8 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 12
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    8 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 12
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    8 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 12
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 10
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    8 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 12
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 5 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    14 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 17
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
@@ -658,8 +1600,8 @@ Iteration 1. Number of bad faces is 53
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    10 zero or negative part tetrahedra detected.
-Iteration 2. Number of bad faces is 13
+    5 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 7
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
@@ -667,111 +1609,111 @@ Iteration 2. Number of bad faces is 13
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 7 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    9 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    11 zero or negative part tetrahedra detected.
+Iteration 8. Number of bad faces is 19
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    10 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    8 zero or negative part tetrahedra detected.
+Iteration 9. Number of bad faces is 13
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
     5 zero or negative part tetrahedra detected.
-Iteration 0. Number of bad faces is 5
---> FOAM Warning : 
-    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 2 faces pointing the wrong way!
+Iteration 10. Number of bad faces is 11
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    2 faces with severe warpage (flatness < 0.8) found.
+    10 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 11. Number of bad faces is 14
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    6 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 11
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    6 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 11
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    6 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 11
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
     3 zero or negative part tetrahedra detected.
-Iteration 1. Number of bad faces is 3
---> FOAM Warning : 
-    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 2 faces pointing the wrong way!
+Iteration 1. Number of bad faces is 6
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    2 faces with severe warpage (flatness < 0.8) found.
+    3 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    3 zero or negative part tetrahedra detected.
-Iteration 2. Number of bad faces is 3
---> FOAM Warning : 
-    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 2 faces pointing the wrong way!
---> FOAM Warning : 
-    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    2 faces with severe warpage (flatness < 0.8) found.
-
---> FOAM Warning : 
-    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    3 zero or negative part tetrahedra detected.
-Iteration 3. Number of bad faces is 3
---> FOAM Warning : 
-    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 2 faces pointing the wrong way!
---> FOAM Warning : 
-    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
-
---> FOAM Warning : 
-    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    3 zero or negative part tetrahedra detected.
-Iteration 4. Number of bad faces is 3
---> FOAM Warning : 
-    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 2 faces pointing the wrong way!
---> FOAM Warning : 
-    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    2 faces with severe warpage (flatness < 0.8) found.
-
---> FOAM Warning : 
-    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    4 zero or negative part tetrahedra detected.
-Iteration 5. Number of bad faces is 4
---> FOAM Warning : 
-    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 2 faces pointing the wrong way!
---> FOAM Warning : 
-    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
-
---> FOAM Warning : 
-    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    3 zero or negative part tetrahedra detected.
-Iteration 6. Number of bad faces is 3
---> FOAM Warning : 
-    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
-    Error in face pyramids: 2 faces pointing the wrong way!
---> FOAM Warning : 
-    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    2 faces with severe warpage (flatness < 0.8) found.
-
---> FOAM Warning : 
-    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
-    4 zero or negative part tetrahedra detected.
-Iteration 1. Number of bad faces is 4
+    6 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 7
 --> FOAM Warning : 
     From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
@@ -779,76 +1721,693 @@ Iteration 1. Number of bad faces is 4
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    6 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 12
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    6 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 12
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
 
 --> FOAM Warning : 
     From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
     4 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 7
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 7
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    6 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 11
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 7
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    10 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    7 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 13
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    10 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 17
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 7
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 3
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 7
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    9 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 13
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    8 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    9 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 15
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    3 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 8. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 10
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    3 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
 Iteration 2. Number of bad faces is 4
-Iteration 0. Number of bad faces is 0
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    2 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    3 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 7
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    6 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    7 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 11
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 6
 Finished untangling the mesh
 Finished smoothing the mesh
-Iteration 0. Number of bad faces is 27
-Iteration 1. Number of bad faces is 7
-Iteration 2. Number of bad faces is 7
-Iteration 3. Number of bad faces is 7
-Iteration 4. Number of bad faces is 6
-Iteration 5. Number of bad faces is 6
-Iteration 6. Number of bad faces is 6
-Iteration 7. Number of bad faces is 6
-Iteration 8. Number of bad faces is 6
-Iteration 9. Number of bad faces is 6
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.73208374036612 Average skewness = 0.0334630756045006.
+This may impair the quality of the result.
+12 highly skew faces detected.
+Iteration 0. Number of bad faces is 298
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.69283321176911 Average skewness = 0.00416876913334372.
+This may impair the quality of the result.
+16 highly skew faces detected.
+Iteration 1. Number of bad faces is 293
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.85611914558617 Average skewness = 0.00326968569511658.
+This may impair the quality of the result.
+13 highly skew faces detected.
+Iteration 2. Number of bad faces is 276
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.59054388205019 Average skewness = 0.00325650330354143.
+This may impair the quality of the result.
+13 highly skew faces detected.
+Iteration 3. Number of bad faces is 283
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.76150913207256 Average skewness = 0.00326015500829045.
+This may impair the quality of the result.
+11 highly skew faces detected.
+Iteration 4. Number of bad faces is 280
+--> FOAM Warning : 
+    From function checkFaceDotProduct(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1927
+    Error in non-orthogonality detected
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.5638533629009 Average skewness = 0.00302515358370611.
+This may impair the quality of the result.
+10 highly skew faces detected.
+Iteration 5. Number of bad faces is 282
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.93268891859147 Average skewness = 0.00304616285136799.
+This may impair the quality of the result.
+12 highly skew faces detected.
+Iteration 6. Number of bad faces is 275
+--> FOAM Warning : 
+    From function checkFaceDotProduct(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1927
+    Error in non-orthogonality detected
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.32742811512089 Average skewness = 0.00301854826213237.
+This may impair the quality of the result.
+9 highly skew faces detected.
+Iteration 7. Number of bad faces is 280
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 5.90144097672093 Average skewness = 0.00303441728694143.
+This may impair the quality of the result.
+13 highly skew faces detected.
+Iteration 8. Number of bad faces is 278
+--> FOAM Warning : 
+    From function checkFaceSkewness(const polyMeshGen&, const bool, const scalar,labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2339
+    Large face skewness detected.  Max skewness = 6.35048592901132 Average skewness = 0.00303985246717883.
+This may impair the quality of the result.
+11 highly skew faces detected.
+Iteration 9. Number of bad faces is 276
 Starting untangling the mesh
 --> FOAM Warning : 
-    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
-    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
-
-Iteration 0. Number of bad faces is 1
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    11 faces with severe warpage (flatness < 0.8) found.
 
-Iteration 1. Number of bad faces is 1
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 14
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    4 faces with severe warpage (flatness < 0.8) found.
 
-Iteration 2. Number of bad faces is 1
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    2 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 6
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    4 faces with severe warpage (flatness < 0.8) found.
 
-Iteration 3. Number of bad faces is 1
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    2 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 1 faces pointing the wrong way!
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    7 faces with severe warpage (flatness < 0.8) found.
 
-Iteration 4. Number of bad faces is 1
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 10
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    7 faces with severe warpage (flatness < 0.8) found.
 
-Iteration 5. Number of bad faces is 1
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    4 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 10
 --> FOAM Warning : 
     From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
     in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
-    1 faces with severe warpage (flatness < 0.8) found.
+    5 faces with severe warpage (flatness < 0.8) found.
 
-Iteration 1. Number of bad faces is 1
-Iteration 2. Number of bad faces is 0
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 6
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 8
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    2 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 9
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    7 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    3 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 10
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 11 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    12 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 14
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 2
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 2
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 2
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 2
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 2
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 7. Number of bad faces is 2
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    2 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    1 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 2
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    4 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    5 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 5
+--> FOAM Warning : 
+    From function bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 6 faces pointing the wrong way!
+--> FOAM Warning : 
+    From function bool checkFaceFlatness(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2972
+    5 faces with severe warpage (flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From function bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    11 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 11
+Iteration 1. Number of bad faces is 0
 Finished untangling the mesh
 Renumbering the mesh
 Finished renumbering the mesh
 Renaming boundary patches
 Finished renaming boundary patches
-ExecutionTime = 82.28 s
-ClockTime = 22 s
+ExecutionTime = 233.41 s
+ClockTime = 63 s
 End
 

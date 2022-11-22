@@ -49,20 +49,10 @@ patches
     }
 
     {
-        name wall;
-        patchInfo
-        {
-            type wall;
-        }
-        constructFrom patches;
-        patches ( "patch_4_.*" );
-    }
-
-    {
         name defaultFaces;
         patchInfo
         {
-            type wall;
+            type patch;
         }
         constructFrom patches;
         patches ( "patch_0_0" );

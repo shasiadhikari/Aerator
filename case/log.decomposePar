@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-3bcbaf946ae9
 Exec   : decomposePar -force
-Date   : Nov 21 2022
-Time   : 12:38:12
+Date   : Nov 22 2022
+Time   : 12:28:57
 Host   : "shasi-ThinkPad-Edge-E540"
-PID    : 31302
+PID    : 13062
 I/O    : uncollated
 Case   : /home/shasi/Documents/CFD/Project/case
 nProcs : 1
@@ -37,7 +37,7 @@ Calculating distribution of cells
 
 Selecting decompositionMethod scotch
 
-Finished decomposition in 0.19 s
+Finished decomposition in 0.46 s
 
 Calculating original mesh data
 
@@ -52,39 +52,39 @@ Reading hexRef8 data : cellLevel
 Reading hexRef8 data : pointLevel
 
 Processor 0
-    Number of cells = 15818
-    Number of faces shared with processor 1 = 621
-    Number of processor patches = 1
-    Number of processor faces = 621
-    Number of boundary faces = 3769
+    Number of cells = 39112
+    Number of faces shared with processor 1 = 1678
+    Number of faces shared with processor 3 = 1706
+    Number of processor patches = 2
+    Number of processor faces = 3384
+    Number of boundary faces = 4890
 
 Processor 1
-    Number of cells = 15747
-    Number of faces shared with processor 0 = 621
-    Number of faces shared with processor 3 = 830
-    Number of processor patches = 2
-    Number of processor faces = 1451
-    Number of boundary faces = 4205
+    Number of cells = 39359
+    Number of faces shared with processor 0 = 1678
+    Number of processor patches = 1
+    Number of processor faces = 1678
+    Number of boundary faces = 8553
 
 Processor 2
-    Number of cells = 15578
-    Number of faces shared with processor 3 = 885
+    Number of cells = 39491
+    Number of faces shared with processor 3 = 1323
     Number of processor patches = 1
-    Number of processor faces = 885
-    Number of boundary faces = 4058
+    Number of processor faces = 1323
+    Number of boundary faces = 7334
 
 Processor 3
-    Number of cells = 15506
-    Number of faces shared with processor 1 = 830
-    Number of faces shared with processor 2 = 885
+    Number of cells = 38912
+    Number of faces shared with processor 0 = 1706
+    Number of faces shared with processor 2 = 1323
     Number of processor patches = 2
-    Number of processor faces = 1715
-    Number of boundary faces = 2675
+    Number of processor faces = 3029
+    Number of boundary faces = 8983
 
-Number of processor faces = 2336
-Max number of cells = 15818 (0.99442928% above average 15662.25)
+Number of processor faces = 4707
+Max number of cells = 39491 (0.69482515% above average 39218.5)
 Max number of processor patches = 2 (33.333333% above average 1.5)
-Max number of faces between processors = 1715 (46.832192% above average 1168)
+Max number of faces between processors = 3384 (43.785851% above average 2353.5)
 
 Time = 0
 

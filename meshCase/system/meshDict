@@ -16,8 +16,8 @@ FoamFile
 
 surfaceFile       "Common_Geometry.fms";
 
-maxCellSize       0.00025;
-boundaryCellSize  0.00025;
+maxCellSize       0.0002;
+boundaryCellSize  0.0002;
 
 
 

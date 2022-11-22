@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-3bcbaf946ae9
 Exec   : surfaceMeshTriangulate mesh_outside.stl
-Date   : Nov 21 2022
-Time   : 12:33:11
+Date   : Nov 22 2022
+Time   : 12:08:47
 Host   : "shasi-ThinkPad-Edge-E540"
-PID    : 29335
+PID    : 7974
 I/O    : uncollated
 Case   : /home/shasi/Documents/CFD/Project/meshCase
 nProcs : 1
@@ -30,9 +30,8 @@ Create polyMesh for time = 0
 
 surfZone 0 : patch_3_0
 surfZone 1 : patch_0_0
-surfZone 2 : patch_4_0
-surfZone 3 : patch_2_0
-surfZone 4 : patch_1_0
+surfZone 2 : patch_2_0
+surfZone 3 : patch_1_0
 Writing merged surface to "/home/shasi/Documents/CFD/Project/meshCase/mesh_outside.stl"
 End
 

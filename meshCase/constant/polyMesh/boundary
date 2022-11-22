@@ -16,41 +16,34 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 
-5
+4
 (
 patch_0_0
 {
     type wall;
-    nFaces 2302;
-    startFace 176655;
+    nFaces 15305;
+    startFace 448997;
 }
 
 patch_1_0
 {
     type wall;
-    nFaces 783;
-    startFace 178957;
+    nFaces 1570;
+    startFace 464302;
 }
 
 patch_2_0
 {
     type wall;
-    nFaces 494;
-    startFace 179740;
+    nFaces 1091;
+    startFace 465872;
 }
 
 patch_3_0
 {
     type wall;
-    nFaces 6740;
-    startFace 180234;
-}
-
-patch_4_0
-{
-    type wall;
-    nFaces 4388;
-    startFace 186974;
+    nFaces 11794;
+    startFace 466963;
 }
 
 )

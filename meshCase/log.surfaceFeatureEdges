@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-3bcbaf946ae9
 Exec   : surfaceFeatureEdges -angle 60 constant/triSurface/Common_Geometry.stl Common_Geometry.fms
-Date   : Nov 21 2022
-Time   : 12:32:48
+Date   : Nov 22 2022
+Time   : 12:07:44
 Host   : "shasi-ThinkPad-Edge-E540"
-PID    : 28845
+PID    : 7476
 I/O    : uncollated
 Case   : /home/shasi/Documents/CFD/Project/meshCase
 nProcs : 1

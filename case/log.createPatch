@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-3bcbaf946ae9
 Exec   : createPatch -overwrite
-Date   : Nov 21 2022
-Time   : 12:38:11
+Date   : Nov 22 2022
+Time   : 12:28:56
 Host   : "shasi-ThinkPad-Edge-E540"
-PID    : 31295
+PID    : 13055
 I/O    : uncollated
 Case   : /home/shasi/Documents/CFD/Project/case
 nProcs : 1
@@ -25,37 +25,31 @@ Create polyMesh for time = 0
 
 Reading createPatchDict
 
-Adding new patch inlet as patch 5 from 
+Adding new patch inlet as patch 4 from 
 {
     type            patch;
 }
 
-Adding new patch outlet as patch 6 from 
+Adding new patch outlet as patch 5 from 
 {
     type            patch;
 }
 
-Adding new patch constraint as patch 7 from 
+Adding new patch constraint as patch 6 from 
 {
     type            symmetry;
 }
 
-Adding new patch wall as patch 8 from 
+Adding new patch defaultFaces as patch 7 from 
 {
-    type            wall;
-}
-
-Adding new patch defaultFaces as patch 9 from 
-{
-    type            wall;
+    type            patch;
 }
 
 
-Moving faces from patch patch_1_0 to patch 5
-Moving faces from patch patch_2_0 to patch 6
-Moving faces from patch patch_3_0 to patch 7
-Moving faces from patch patch_4_0 to patch 8
-Moving faces from patch patch_0_0 to patch 9
+Moving faces from patch patch_1_0 to patch 4
+Moving faces from patch patch_2_0 to patch 5
+Moving faces from patch patch_3_0 to patch 6
+Moving faces from patch patch_0_0 to patch 7
 
 Doing topology modification to order faces.
 
@@ -67,7 +61,6 @@ Removing zero-sized patch patch_0_0 type wall at position 0
 Removing zero-sized patch patch_1_0 type wall at position 1
 Removing zero-sized patch patch_2_0 type wall at position 2
 Removing zero-sized patch patch_3_0 type wall at position 3
-Removing zero-sized patch patch_4_0 type wall at position 4
 Removing patches.
 Writing repatched mesh to 0
 

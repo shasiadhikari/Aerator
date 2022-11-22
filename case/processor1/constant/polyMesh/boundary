@@ -15,62 +15,43 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-7
+5
 (
     inlet
     {
         type            patch;
         nFaces          0;
-        startFace       42700;
+        startFace       110952;
     }
     outlet
     {
         type            patch;
-        nFaces          0;
-        startFace       42700;
+        nFaces          1091;
+        startFace       110952;
     }
     constraint
     {
         type            symmetry;
         inGroups        List<word> 1(symmetry);
-        nFaces          1427;
-        startFace       42700;
-    }
-    wall
-    {
-        type            wall;
-        inGroups        List<word> 1(wall);
-        nFaces          891;
-        startFace       44127;
+        nFaces          3140;
+        startFace       112043;
     }
     defaultFaces
     {
-        type            wall;
-        inGroups        List<word> 1(wall);
-        nFaces          1887;
-        startFace       45018;
+        type            patch;
+        nFaces          4322;
+        startFace       115183;
     }
     procBoundary1to0
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          621;
-        startFace       46905;
+        nFaces          1678;
+        startFace       119505;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        1;
         neighbProcNo    0;
-    }
-    procBoundary1to3
-    {
-        type            processor;
-        inGroups        List<word> 1(processor);
-        nFaces          830;
-        startFace       47526;
-        matchTolerance  0.0001;
-        transform       unknown;
-        myProcNo        1;
-        neighbProcNo    3;
     }
 )
 
